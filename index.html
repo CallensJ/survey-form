@@ -16,7 +16,9 @@
   <body>
     <div class="container">
       <h1 id="title">Contact Form</h1>
-      <p id="description">Description</p>
+      <p id="description">
+        Please complete this form and click on the submit button
+      </p>
 
       <div class="form-1">
         <form id="survey-form">
@@ -37,7 +39,7 @@
             required
           /><br />
 
-          <label for="number-label" id="number-label">Your number</label><br />
+          <label for="number-label" id="number-label">Age</label><br />
           <input
             type="number"
             id="number"
@@ -52,11 +54,10 @@
             <option value="mercedes">Mercedes</option>
             <option value="audi">Audi</option>
           </select>
-
+          <p>what is your favorite language</p>
           <label for="html"
             >HTML
             <input type="checkbox" id="html" name="html" value="Bike" />
-
           </label>
 
           <label for="css"
@@ -64,19 +65,45 @@
 
             <input type="checkbox" id="css" name="css" value="Bike" />
           </label>
-          <label for="php">
-            php
-            <input type="radio" id="html" name="php" value="HTML" />
-          </label>
-          <label for="javascript">
-            javascript 
+          <div id="" radio-btn>
+            <p>what is your coding level?</p>
+            <label for="noob">
+              n00b
+              <input type="radio" id="noob" name="noob" value="1" />
+            </label>
+            <label for="2">
+              medium
 
-            <input type="radio" id="html" name="javascript" value="HTML" />
-          </label>
+              <input type="radio" id="medium" name="medium" value="medium" />
+            </label>
+            <label for="3">
+              jedi
+
+              <input type="radio" id="jedi" name="jedi" value="jedi" /> </label
+            >
+          </div>
+          <div id="" radio-btn>
+            <p>what is your coding year ?</p>
+            <label for="noob">
+              1 year
+              <input type="radio" id="1" name="1" value="1" />
+            </label>
+            <label for="2">
+              2 years
+
+              <input type="radio" id="2" name="2" value="2" />
+            </label>
+            <label for="3">
+              3 years or more
+
+              <input type="radio" id="3" name="3" value="3" /> </label
+            >)
+          </div>
+
 
           <textarea id="w3review" name="w3review" rows="4" cols="50">
-                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
-            </textarea
+                  Enter your text here
+              </textarea
           >
           <button type="submit" id="submit">Submit</button>
         </form>
@@ -84,4 +111,3 @@
     </div>
   </body>
 </html>
-
