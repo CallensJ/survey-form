@@ -15,10 +15,9 @@
   </head>
   <body>
     <div class="container">
-      
-        <h1 id="title">Contact Form</h1>
-        <p id="description">Description</p>
-      
+      <h1 id="title">Contact Form</h1>
+      <p id="description">Description</p>
+
       <div class="form-1">
         <form id="survey-form">
           <label for="name-label" id="name-label">First name:</label><br />
@@ -53,15 +52,30 @@
             <option value="mercedes">Mercedes</option>
             <option value="audi">Audi</option>
           </select>
-          <div id="check">
-            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-            <input type="radio" id="html" name="fav_language" value="HTML" />
-            <input type="radio" id="html" name="fav_language" value="HTML" />
 
-          </div>
+          <label for="html"
+            >HTML
+            <input type="checkbox" id="html" name="html" value="Bike" />
+
+          </label>
+
+          <label for="css"
+            >CSS
+
+            <input type="checkbox" id="css" name="css" value="Bike" />
+          </label>
+          <label for="php">
+            php
+            <input type="radio" id="html" name="php" value="HTML" />
+          </label>
+          <label for="javascript">
+            javascript 
+
+            <input type="radio" id="html" name="javascript" value="HTML" />
+          </label>
+
           <textarea id="w3review" name="w3review" rows="4" cols="50">
-            At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
             </textarea
           >
           <button type="submit" id="submit">Submit</button>
@@ -70,3 +84,4 @@
     </div>
   </body>
 </html>
+
